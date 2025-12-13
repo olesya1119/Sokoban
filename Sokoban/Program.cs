@@ -1,4 +1,4 @@
-﻿using SokobanGame;
+﻿using Sokoban;
 
-using var sokobanGame = new Sokoban();
+using var sokobanGame = new SokobanGame();
 sokobanGame.Run();

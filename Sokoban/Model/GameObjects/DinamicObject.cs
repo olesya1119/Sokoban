@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyGame.Core.Entities
+namespace Sokoban.Model.Entities
 {
     /// <summary>
     /// Базовый класс динамического объекта (объектов способных к измнению позиции)

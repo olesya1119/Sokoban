@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyGame.Core.GameObjects;
+namespace Sokoban.Model.GameObjects;
 
 /// <summary>
 /// Базовый класс статического объекта (объектов не способных к измнению позиции)

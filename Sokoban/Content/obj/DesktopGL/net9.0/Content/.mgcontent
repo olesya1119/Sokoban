@@ -4,9 +4,11 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/bulch/Desktop/Sokoban/Sokoban/Content/audio/ui.wav</File>
     <File>C:/Users/bulch/Desktop/Sokoban/Sokoban/Content/kenney_sokoban-pack/PNG/Default size/logo.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File>images/logo</File>
   </DestFiles>
 </SourceFileCollection>

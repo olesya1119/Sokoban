@@ -35,3 +35,9 @@ C:\Users\bulch\Desktop\Sokoban\Sokoban\obj\Debug\net9.0\ref\MyGame.dll
 C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Content\images\logo.xnb
 C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\MonoGameLibrary.dll
 C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\MonoGameLibrary.pdb
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Content\audio\ui.xnb
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\GumCommon.dll
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\FlatRedBall.InterpolationCore.dll
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\MonoGameGum.dll
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\TextCopy.dll

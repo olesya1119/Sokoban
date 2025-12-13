@@ -10,3 +10,4 @@ C:\Users\bulch\Desktop\Sokoban\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.
 C:\Users\bulch\Desktop\Sokoban\MonoGameLibrary\obj\Debug\net9.0\refint\MonoGameLibrary.dll
 C:\Users\bulch\Desktop\Sokoban\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.pdb
 C:\Users\bulch\Desktop\Sokoban\MonoGameLibrary\obj\Debug\net9.0\ref\MonoGameLibrary.dll
+C:\Users\bulch\Desktop\Sokoban\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.sourcelink.json
