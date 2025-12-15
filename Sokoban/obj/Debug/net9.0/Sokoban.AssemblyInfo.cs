@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("SokobanGame")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Sokoban")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1d7fb0d22c586e1f4a2eecbdea7c6f1b1333767")]
-[assembly: System.Reflection.AssemblyProductAttribute("SokobanGame")]
-[assembly: System.Reflection.AssemblyTitleAttribute("SokobanGame")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2cb6348d7cf692a41b5ff99452ab0611fd0c41e")]
+[assembly: System.Reflection.AssemblyProductAttribute("Sokoban")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Sokoban")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

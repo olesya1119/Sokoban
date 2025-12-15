@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas>
+	<Texture>images/spritesheet</Texture>
+	<Regions>
+		<Region name="box" x="0" y="256" width="64" height="64" />
+		<Region name="wall" x="128" y="256" width="64" height="64" />
+		<Region name="goal" x="64" y="256" width="64" height="64" />
+		<Region name="box-in-goal" x="64" y="320" width="64" height="64" />
+		<Region name="floor" x="0" y="320" width="64" height="64" />
+		<Region name="player-stay-down" x="0" y="0" width="64" height="64" />
+		<Region name="player-walk-down-1" x="64" y="0" width="64" height="64" />
+		<Region name="player-walk-down-2" x="128" y="0" width="64" height="64" />
+		<Region name="player-stay-up" x="0" y="64" width="64" height="64" />
+		<Region name="player-walk-up-1" x="64" y="64" width="64" height="64" />
+		<Region name="player-walk-up-2" x="128" y="64" width="64" height="64" />
+		<Region name="player-stay-right" x="0" y="128" width="64" height="64" />
+		<Region name="player-walk-right-1" x="64" y="128" width="64" height="64" />
+		<Region name="player-walk-right-2" x="128" y="128" width="64" height="64" />
+		<Region name="player-stay-left" x="0" y="192" width="64" height="64" />
+		<Region name="player-walk-left-1" x="64" y="192" width="64" height="64" />
+		<Region name="player-walk-left-2" x="128" y="192" width="64" height="64" />
+
+
+	</Regions>
+	<Animations>
+		<Animation name="player-walk-left" delay="100">
+			<Frame region="player-walk-left-1" />
+			<Frame region="player-walk-left-2" />
+		</Animation>
+		<Animation name="player-walk-right" delay="100">
+			<Frame region="player-walk-right-1" />
+			<Frame region="player-walk-right-2" />
+		</Animation>
+		<Animation name="player-walk-up" delay="100">
+			<Frame region="player-walk-up-1" />
+			<Frame region="player-walk-up-2" />
+		</Animation>
+		<Animation name="player-walk-down" delay="100">
+			<Frame region="player-walk-down-1" />
+			<Frame region="player-walk-down-2" />
+		</Animation>
+	</Animations>
+</TextureAtlas>

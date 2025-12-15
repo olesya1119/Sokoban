@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/bulch/Desktop/Sokoban/Sokoban/Content/images/atlas-definition.xml","C:\Users\bulch\Desktop\Sokoban\Sokoban\Content\bin\DesktopGL\images/atlas-definition.xml","CopyItem","File",2019,2019,0,0012108
+"C:/Users/bulch/Desktop/Sokoban/Sokoban/Content/images/spritesheet.png","C:/Users/bulch/Desktop/Sokoban/Sokoban/Content/bin/DesktopGL/images/spritesheet.xnb","TextureProcessor","Texture2DContent",26460,294997,0,1398271
+"C:/Users/bulch/Desktop/Sokoban/Sokoban/Content/images/tilemap-definition.xml","C:\Users\bulch\Desktop\Sokoban\Sokoban\Content\bin\DesktopGL\images/tilemap-definition.xml","CopyItem","File",937,937,0,0009473

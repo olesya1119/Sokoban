@@ -19,7 +19,17 @@
 /processorParam:Quality=Best
 /build:audio/ui.wav
 
-#begin kenney_sokoban-pack/PNG/Default size/logo.png
+#begin fonts/ui.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:fonts/ui.spritefont
+
+#begin images/atlas-definition.xml
+/copy:images/atlas-definition.xml
+
+#begin images/sokoban_spritesheet.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -29,5 +39,23 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:kenney_sokoban-pack/PNG/Default size/logo.png;images/logo
+/build:images/sokoban_spritesheet.png
+
+#begin images/spritesheet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:images/spritesheet.png
+
+#begin images/tilemap-definition.xml
+/copy:images/tilemap-definition.xml
+
+#begin levels/levels.xml
+/copy:levels/levels.xml
 

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Level name="Level3">
+	<Rows>
+		<Row>   ########### </Row>
+		<Row>   #..B..G...# </Row>
+		<Row>   #..B.....G# </Row>
+		<Row>   #.....P....# </Row>
+		<Row>   ###########  </Row>
+	</Rows>
+</Level>

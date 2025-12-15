@@ -6,7 +6,6 @@ C:\Users\bulch\Desktop\Sokoban\Sokoban\obj\Debug\net9.0\Sokoban.AssemblyInfo.cs
 C:\Users\bulch\Desktop\Sokoban\Sokoban\obj\Debug\net9.0\Sokoban.csproj.CoreCompileInputs.cache
 C:\Users\bulch\Desktop\Sokoban\Sokoban\obj\Debug\net9.0\Sokoban.sourcelink.json
 C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Content\audio\ui.xnb
-C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Content\images\logo.xnb
 C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Sokoban.exe
 C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Sokoban.deps.json
 C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Sokoban.runtimeconfig.json
@@ -41,3 +40,14 @@ C:\Users\bulch\Desktop\Sokoban\Sokoban\obj\Debug\net9.0\refint\Sokoban.dll
 C:\Users\bulch\Desktop\Sokoban\Sokoban\obj\Debug\net9.0\Sokoban.pdb
 C:\Users\bulch\Desktop\Sokoban\Sokoban\obj\Debug\net9.0\Sokoban.genruntimeconfig.cache
 C:\Users\bulch\Desktop\Sokoban\Sokoban\obj\Debug\net9.0\ref\Sokoban.dll
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Content\fonts\ui.xnb
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Content\images\sokoban_spritesheet.xnb
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Content\images\atlas-definition.xml
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Content\images\tilemap-definition.xml
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Content\images\spritesheet.xnb
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Content\levels\levels.xml
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Content\levels\level1.xml
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Content\levels\level2.xml
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Content\levels\level3.xml
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Content\levels\level4.xml
+C:\Users\bulch\Desktop\Sokoban\Sokoban\bin\Debug\net9.0\Content\levels\level5.xml

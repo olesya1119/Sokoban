@@ -5,10 +5,14 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/bulch/Desktop/Sokoban/Sokoban/Content/audio/ui.wav</File>
-    <File>C:/Users/bulch/Desktop/Sokoban/Sokoban/Content/kenney_sokoban-pack/PNG/Default size/logo.png</File>
+    <File>C:/Users/bulch/Desktop/Sokoban/Sokoban/Content/fonts/ui.spritefont</File>
+    <File>C:/Users/bulch/Desktop/Sokoban/Sokoban/Content/images/sokoban_spritesheet.png</File>
+    <File>C:/Users/bulch/Desktop/Sokoban/Sokoban/Content/images/spritesheet.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
-    <File>images/logo</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>
