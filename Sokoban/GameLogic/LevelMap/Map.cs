@@ -1,15 +1,11 @@
 ﻿using Microsoft.Xna.Framework;
 using System.Collections.Generic;
-
-
 namespace Sokoban.GameLogic;
 
 public class Map
 {
     public const int MaxWidth = 18;
     public const int MaxHeight = 10;
-
-    private readonly CellType[,] _cells;
 
     public int Width { get; }
     public int Height { get; }
@@ -32,6 +28,8 @@ public class Map
     public bool IsVoid(Point p) => !InBounds(p) || GetCell(p) == CellType.Void;
     public bool IsWall(Point p) => InBounds(p) && GetCell(p) == CellType.Wall;
     public bool IsGoal(Point p) => InBounds(p) && GetCell(p) == CellType.Goal;
+
+    private readonly CellType[,] _cells;
 
     public bool IsWalkableBase(Point p)
     {

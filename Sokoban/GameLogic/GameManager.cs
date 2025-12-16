@@ -33,6 +33,7 @@ public sealed class GameManager
         return true;
     }
 
+    // Можем ли сделать ход - если да, то делаем
     public bool TryMove(Direction dir)
     {
         Player.SetFacing(dir);
@@ -60,7 +61,7 @@ public sealed class GameManager
         // обычный шаг
         if (boxIndex == -1)
         {
-            Player.MoveTo(next); // событие Moved улетит наружу
+            Player.MoveTo(next);
             MovesCount++;
             return true;
         }
@@ -75,13 +76,13 @@ public sealed class GameManager
             return false;
 
         // двигаем ящик и игрока
-        _boxes[boxIndex].MoveTo(beyond); // событие
+        _boxes[boxIndex].MoveTo(beyond);
 
         _boxes[boxIndex].SetState(
              _level.Goals.Contains(_boxes[boxIndex].Grid) ? BoxState.OnGoal : BoxState.Normal
         );
 
-        Player.MoveTo(next);             // событие
+        Player.MoveTo(next);
         MovesCount++;
         return true;
     }

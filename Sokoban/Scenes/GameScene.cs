@@ -31,7 +31,7 @@ public class GameScene : Scene
         _level = LevelLoader.FromXml(Content, $"levels/level{levelNumber}.xml");
     }
 
-    // связь объект - аниматор
+    // привязка объектов игры к их аниматорам
     private readonly Dictionary<GameObject, Animator> _animByObj = new();
 
     public override void LoadContent()
@@ -59,7 +59,7 @@ public class GameScene : Scene
         // подписки на события игрока
         _game.Player.Moved += OnObjectMoved;
 
-
+        // подписки на события коробки
         foreach (var box in _game.Boxes)
         {
             var boxAnim = new BoxAnimator(GridToWorld(box.Grid));

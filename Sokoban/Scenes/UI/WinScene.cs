@@ -1,7 +1,6 @@
 ﻿using MonoGameLibrary;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Sokoban.Scenes.UI;
 using System;
 
 namespace Sokoban.Scenes.UI
@@ -18,7 +17,7 @@ namespace Sokoban.Scenes.UI
             _moves = moves;
             _levelNumber = levelNumber;
 
-            AddButton("Back to Levels", 100, 10, 110, 100, HandleBackClicked);
+            AddButton("Back to Levels", 100, -10, 110, 100, HandleBackClicked);
         }
 
         public override void LoadContent()
