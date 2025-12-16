@@ -7,8 +7,8 @@ public class TitleScene : InterfaceScene
 {
     public TitleScene() : base()
     {
-        AddButton("Start", 100, -10, 110, 40, HandleStartClicked);
-        AddButton("Exit", 100, -10, 110, 100, HandleExitClicked);
+        AddButton("Start", 100, 10, 110, 20, HandleStartClicked);
+        AddButton("Exit", 100, 10, 110, 100, HandleExitClicked);
     }
 
     private void HandleStartClicked(object sender, EventArgs e)

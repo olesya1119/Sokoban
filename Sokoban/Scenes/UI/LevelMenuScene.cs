@@ -36,7 +36,7 @@ class LevelMenuScene : InterfaceScene
             }
         }
 
-        AddButton("Back", 100, -10, 110, 130, (s, e) => Core.ChangeScene(new TitleScene()));
+        AddButton("Back", 100, 10, 110, 130, (s, e) => Core.ChangeScene(new TitleScene()));
     }
 
     private void StartLevel(int levelNumber)

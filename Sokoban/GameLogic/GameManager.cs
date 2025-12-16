@@ -9,6 +9,7 @@ public sealed class GameManager
     private readonly Level _level;
 
     public Level Level => _level;
+    public int MovesCount { get; private set; }
 
     public Player Player { get; }
     public IReadOnlyList<Box> Boxes => _boxes;
@@ -60,6 +61,7 @@ public sealed class GameManager
         if (boxIndex == -1)
         {
             Player.MoveTo(next); // событие Moved улетит наружу
+            MovesCount++;
             return true;
         }
 
@@ -80,6 +82,7 @@ public sealed class GameManager
         );
 
         Player.MoveTo(next);             // событие
+        MovesCount++;
         return true;
     }
 

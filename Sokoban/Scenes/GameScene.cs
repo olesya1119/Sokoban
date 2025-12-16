@@ -5,6 +5,7 @@ using MonoGameLibrary;
 using MonoGameLibrary.Scenes;
 using Sokoban.GameLogic;
 using Sokoban.GameLogic.Objects;
+using Sokoban.Scenes.UI;
 using Sokoban.View;
 using System.Collections.Generic;
 
@@ -12,6 +13,8 @@ namespace Sokoban.Scenes;
 
 public class GameScene : Scene
 {
+    public int LevelNumber { get; private set; }
+
     private const int TileSize = 64;
 
     private Level _level;
@@ -24,6 +27,7 @@ public class GameScene : Scene
 
     public GameScene(int levelNumber)
     {
+        LevelNumber = levelNumber;
         _level = LevelLoader.FromXml(Content, $"levels/level{levelNumber}.xml");
     }
 
@@ -77,8 +81,10 @@ public class GameScene : Scene
 
         if (_game.IsWin())
         {
-            Core.Instance.Exit();
+            Core.ChangeScene(new WinScene(_game.MovesCount, LevelNumber));
+            return;
         }
+
 
         if (!TryGetDirectionJustPressed(out var dir))
             return;
@@ -126,6 +132,7 @@ public class GameScene : Scene
         if (k.WasKeyJustPressed(Keys.Down) || k.WasKeyJustPressed(Keys.S)) { dir = Direction.Down; return true; }
         if (k.WasKeyJustPressed(Keys.Left) || k.WasKeyJustPressed(Keys.A)) { dir = Direction.Left; return true; }
         if (k.WasKeyJustPressed(Keys.Right) || k.WasKeyJustPressed(Keys.D)) { dir = Direction.Right; return true; }
+        if (k.WasKeyJustPressed(Keys.Enter) || k.WasKeyJustPressed(Keys.Space) ) { Core.ChangeScene(new PauseScene(this)); }
 
         return false;
     }
